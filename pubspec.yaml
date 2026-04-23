@@ -1,20 +1,24 @@
 name: aura_wallpapers
 description: A premium Android live wallpaper app with native wallpaper engine integration.
-publish_to: none
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.4.0 <4.0.0'
-  flutter: '>=3.0.0'
+  sdk: ">=3.4.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.5
-  flutter_riverpod: ^2.4.0
-  shared_preferences: ^2.2.0
-  video_player: ^3.3.0
-  path_provider: ^2.0.17
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1
+  shared_preferences: ^2.2.3
+  video_player: ^2.9.5
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
@@ -27,4 +31,3 @@ flutter:
     - assets/wallpapers/gaming/thumbs/
     - assets/wallpapers/gaming/sources/
     - assets/icons/
-    
