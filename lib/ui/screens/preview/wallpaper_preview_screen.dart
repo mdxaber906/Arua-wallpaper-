@@ -4,7 +4,6 @@ import 'package:video_player/video_player.dart';
 import '../../../app/theme/app_text_styles.dart';
 import '../../../data/models/wallpaper_model.dart';
 import '../../../core/enums/wallpaper_category.dart';
-import '../../../core/enums/wallpaper_type.dart';
 import '../../../providers/wallpaper_provider.dart';
 import '../../widgets/gradient_button.dart';
 
