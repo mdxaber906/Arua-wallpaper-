@@ -30,5 +30,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "aura_wallpapers"
 include(":app")
