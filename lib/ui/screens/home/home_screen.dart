@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../app/router/app_router.dart';
 import '../../../core/enums/wallpaper_category.dart';
 import '../../../core/enums/wallpaper_type.dart';
-import '../../../core/theme/app_text_styles.dart';
+import '../../../app/theme/app_text_styles.dart';
 import '../../../providers/wallpaper_provider.dart';
 import '../../../ui/widgets/category_chip.dart';
 import '../../../ui/widgets/section_header.dart';
@@ -182,7 +182,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                                 ),
                               ),
                               alignment: Alignment.center,
-                              child: Text('Latest', style: TextStyle(color: Colors.white70, fontWeight: FontWeight.w700)),
+                              child: Text('Latest', style: const TextStyle(color: Colors.white70, fontWeight: FontWeight.w700)),
                             ),
                           ),
                         ),
@@ -199,7 +199,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                                 ),
                               ),
                               alignment: Alignment.center,
-                              child: Text('Live', style: TextStyle(color: Colors.white70, fontWeight: FontWeight.w700)),
+                              child: Text('Live', style: const TextStyle(color: Colors.white70, fontWeight: FontWeight.w700)),
                             ),
                           ),
                         ),

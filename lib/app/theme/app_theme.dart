@@ -12,11 +12,9 @@ class AppTheme {
     colorScheme: const ColorScheme.dark(
       primary: AppColors.primary,
       secondary: AppColors.accent,
-      background: AppColors.background,
       surface: AppColors.surface,
       onPrimary: Colors.white,
       onSecondary: Colors.white,
-      onBackground: Colors.white,
       onSurface: Colors.white,
     ),
     appBarTheme: const AppBarTheme(
@@ -45,7 +43,7 @@ class AppTheme {
     iconTheme: const IconThemeData(color: Colors.white),
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
-      fillColor: AppColors.inputBackground,
+      fillColor: AppColors.surface,
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
         borderSide: BorderSide.none,
@@ -61,11 +59,9 @@ class AppTheme {
     colorScheme: const ColorScheme.light(
       primary: AppColors.primary,
       secondary: AppColors.accent,
-      background: AppColors.lightBackground,
       surface: AppColors.surface,
       onPrimary: Colors.white,
       onSecondary: Colors.white,
-      onBackground: Colors.black87,
       onSurface: Colors.black87,
     ),
   );

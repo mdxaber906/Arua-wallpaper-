@@ -43,3 +43,4 @@ class AppTextStyles {
     bodyMedium: body.copyWith(color: const Color(0xFFB0BEC5)),
     bodySmall: caption,
   );
+}

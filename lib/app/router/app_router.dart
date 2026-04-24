@@ -19,26 +19,26 @@ class AppRouter {
 
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case home:
+      case '/':
         return MaterialPageRoute(builder: (_) => const HomeScreen());
-      case category:
+      case '/category':
         final args = settings.arguments as Map<String, dynamic>?;
         return MaterialPageRoute(
           builder: (_) => CategoryScreen(category: args?['category'] as WallpaperCategory?),
         );
-      case detail:
+      case '/detail':
         final args = settings.arguments as Map<String, dynamic>?;
         return MaterialPageRoute(
           builder: (_) => WallpaperDetailScreen(wallpaperId: args?['wallpaperId'] as String),
         );
-      case preview:
+      case '/preview':
         final args = settings.arguments as Map<String, dynamic>?;
         return MaterialPageRoute(
           builder: (_) => WallpaperPreviewScreen(wallpaperId: args?['wallpaperId'] as String),
         );
-      case favorites:
+      case '/favorites':
         return MaterialPageRoute(builder: (_) => const FavoritesScreen());
-      case settings:
+      case '/settings':
         return MaterialPageRoute(builder: (_) => const SettingsScreen());
       default:
         return MaterialPageRoute(builder: (_) => const HomeScreen());

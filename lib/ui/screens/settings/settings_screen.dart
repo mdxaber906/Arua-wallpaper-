@@ -51,7 +51,7 @@ class SettingsScreen extends ConsumerWidget {
                     inactiveColor: Colors.white24,
                   ),
                   const SizedBox(height: 24),
-                  ListTile(
+                  const ListTile(
                     contentPadding: EdgeInsets.zero,
                     title: const Text('About Aura Wallpapers', style: TextStyle(color: Colors.white)),
                     subtitle: const Text('Premium dynamic live wallpaper engine with motion and video support.', style: TextStyle(color: Colors.white70)),
