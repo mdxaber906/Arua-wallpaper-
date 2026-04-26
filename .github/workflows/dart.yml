@@ -17,7 +17,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: stable
-          flutter-version: 3.22.2   # FIXED VERSION (important)
+          flutter-version: 3.22.2
 
       - name: Flutter Doctor
         run: flutter doctor
@@ -30,3 +30,9 @@ jobs:
 
       - name: Build APK
         run: flutter build apk --debug
+
+      - name: Upload Debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: aura-wallpapers-debug-apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
