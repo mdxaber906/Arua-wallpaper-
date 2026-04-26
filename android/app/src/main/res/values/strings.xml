@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aura Wallpapers</string>
+        <string name="video_wallpaper_description">Aura video wallpaper</string>
+            <string name="parallax_wallpaper_description">Aura motion wallpaper</string>
+            </resources>

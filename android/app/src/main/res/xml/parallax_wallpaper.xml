@@ -1,5 +1,2 @@
 <wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
-    android:thumbnail="@mipmap/ic_launcher"
-    android:description="Aura motion wallpaper"
-    android:settingsActivity="">
-</wallpaper>
+    android:description="@string/parallax_wallpaper_description" />
